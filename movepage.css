@@ -1,0 +1,61 @@
+.table1 {
+    width: 1000px;
+    border: 1px  rgba(172, 48, 48, 0.596);
+    
+    padding-left:  30%;
+    
+
+}
+.table1 th{
+    padding:20px;
+    width: 50px;
+    background-image: linear-gradient(to right,rgb(248, 51, 51),rgb(8, 1, 1));
+    color: rgb(245, 245, 245);
+    font-weight: bold;
+    text-align: center;
+    border-color: rgba(2, 4, 12, 0.671);
+}
+  .table1 thead th
+{
+    background-color: rgba(75, 7, 7, 0.815);
+    color: rgb(219, 219, 236);
+    font-weight: bolder;
+    text-align:center ;
+}
+   .movie-list-item-img
+   {
+     width: 1000px;
+     padding-left: 30%;
+   }
+   .table2
+   {
+    width: 1000px;
+    border: 1px  rgba(255, 4, 4, 0.596);
+    padding-left:30%;
+   
+   }
+   .table2 th{
+    padding: 15px;
+    background-image: linear-gradient(to right,rgb(129, 11, 11),rgb(8, 2, 1));    color: whitesmoke;
+    font-weight: bold;
+    text-align: center;
+    border-color: rgba(124, 123, 123, 0.671);
+}
+.movie-item1
+{
+    width: 100px;  
+    height: 4cm;
+}
+.movie-item2
+{
+    width: 100px;  
+    height: 4cm;
+}
+.movie-item3
+{
+    width: 100px;  
+    height: 4cm;
+}
+
+
+

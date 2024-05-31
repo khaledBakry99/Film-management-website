@@ -1,0 +1,41 @@
+.search {
+    
+    margin-left: 5px;
+    margin-top: 5px;
+    border: 0.1px solid rgb(218, 86, 74);
+    border-radius: 20px;
+    width: max-content;
+    overflow: hidden;
+background-color: #c0392b;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    background-color: #c0392b;
+
+}
+
+button i {
+    height: 30px;
+    width: 25px;
+    color: rgb(245, 247, 248);
+    margin-right: 7px;
+}
+
+input {
+    height: 35px;
+    margin-left: 10px;
+    border: none;
+    text-align: center;
+    width: 222px;
+    transition: width 0.5s;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(to right,#c0392b,#7e1206);
+}
+
+.search:hover > input {
+    width: 400px;
+}
+
+

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" href="style.css">
+   <script src="all.min.js"></script>
+   <script src="gsap.min.js"></script>
+    <meta charset="UTF-8">
+    <title>Black Movie</title>
+</head>
+<body>
+
+    <div class="container inner">
+        
+        <div class="col sm-col">
+            <a href="../../BlackMovie.html"><input type="submit" name="signup-button"  value="home"/></a>
+
+            <div class="heading">
+
+                <h1>Sign In</h1>
+            </div>
+            <div class="form signin">
+                <div class="input-box">
+                    <div class="icon">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="input">
+                        <h2>name</h2>
+                        <input type="text" placeholder="Enter your name">
+                    </div>
+                </div>
+                <div class="input-box">
+                    <div class="icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="input">
+                        <h2>email</h2>
+                        <input type="email" placeholder="Enter your emai">
+                    </div>
+                </div>
+                <div class="input-box">
+                    <div class="icon">
+                        <i class="fas fa-key"></i>
+                    </div>
+                    <div class="input">
+                        <h2>password</h2>
+                        <input type="password" placeholder="Choose a password">
+                    </div>
+                </div>
+                <div class="input-box">
+                    <div class="icon">
+                        <i class="fas fa-key"></i>
+                    </div>
+                    <div class="input">
+                        <h2>email</h2>
+                        <input type="password" placeholder="Confirm your password">
+                    </div>
+                </div>
+                <input type="submit" class="btn" value="Sign In Now">
+            </div>
+            <a href="#" class="btn" onclick="showlog()">Log In</a>
+        </div>
+        <div class="col lg-col">
+           
+        </div>
+        
+        <div class="col sm-col">
+            <div class="heading">
+                <h1>Login</h1>
+            </div>
+            <div class="form login">
+                <div class="input-box">
+                    <div class="icon">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="input">
+                        <h2>username</h2>
+                        <input type="text" placeholder="username">
+                    </div>
+                </div>
+                <div class="input-box">
+                    <div class="icon">
+                        <i class="fas fa-key"></i>
+                    </div>
+                    <div class="input">
+                        <h2>password</h2>
+                        <input type="password" placeholder="password">
+                    </div>
+                </div>
+                
+                
+                <input type="submit" class="btn" value="Log In Now">
+            </div>
+            <a href="#" class="btn" onclick="showsign()">Sign In</a>
+        </div>
+    </div>
+    <div class="container upper">
+        <div class="col lg-col">
+            <div class="top">
+             
+             
+            
+            </div>
+            <div class="bottom">
+               
+            </div>
+        </div>
+        <div class="col sm-col">
+        </div>
+        <div class="col lg-col">
+            <div class="top">
+               
+                <h1>hello! wercome to the <br/>Black movie</h1>
+               <br>
+                <div class="m-head">Login</div>
+
+            </div>
+            
+            <div class="bottom">
+                
+            </div>
+        </div>
+    </div>
+    
+    
+    <script>
+        function showlog(){
+            gsap.to('.inner', 1, {
+                x: '-30%'
+            })
+            gsap.to('.upper', 1, {
+                x: '8%'
+            })
+            gsap.to('.upper .sm-col h1', .5, {
+                x: '30px'
+            })
+        }
+         function showsign(){
+            gsap.to('.inner', 1, {
+                x: '0'
+            })
+            gsap.to('.upper', 1, {
+                x: '-32%'
+            })
+            gsap.to('.upper .sm-col h1', .5, {
+                x: '0'
+            })
+        }
+        
+    </script>
+    
+    
+    
+</body>
+</html>
